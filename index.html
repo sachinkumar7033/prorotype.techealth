@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gaurav Kumar's Profile</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  .container {
+    display: flexbox;
+    max-width: 288px;
+    height: 500px; 
+     
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c3e4ca;
+    border-radius: 20px;
+    
+
+    text-align: center;
+    position: relative;
+  }
+  .logo {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+    
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  .profile-info p {
+    margin: 10px 0;
+  }
+  .blood-group {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ff1616;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    animation: pulse 1s infinite alternate;
+  }
+  .button2{
+    display: inline-block;
+    width: 189px;
+    height:20px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background-color: #ff0c0cf7;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+  }
+  .button2 a{
+    color: #ede6e6;
+    font-size: small;
+    text-decoration: none;
+  }
+
+  .button2:hover {
+    background-color: #06ba36;
+  }
+  .button-container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-top: 60px;
+    
+    
+   
+  }
+  
+
+  .button {
+    display: inline-flexbox;
+    width: 100px;
+    height: 35px;
+    padding: 10px 9px;
+    margin: 10px 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border:none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+  }
+  .button:hover {
+    background-color: #00b330;
+  }
+  .button{
+    text-decoration: none;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  button {
+    width: 150px;
+    position: relative;
+    height: 40px;
+    margin: 15px;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+   
+
+  
+  button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="techealth.png" alt="Logo" class="logo">
+  <div class="button2">
+    <a><b>" Stay Alert , Don't Get Hurt "</b></a>
+  </div>
+  <h5><u>KQRID :aB3z9Ys7</u></h5>
+  <div class="profile-info">
+    <p><b>Name :<span class="red"> Gaurav Kumar</span> </b></p>
+    <p><b>Age : 18 years</b></p>
+    <p><b>Health Issue : Anxiety</b></p>
+    <p><b>Blood Group : <span class="blood-group"> O+</span></p>
+  </div>
+
+  <div class="button-container">
+    <p><b> ⚠️! ! EMERGENCY  SERVICES ! !⚠️</b></p>
+    <a href="tel:+919717365884" class="button">📞 Family</a>
+    <a href="tel:911" class="button">📞 Police</a>
+    <a href="tel:108" class="button">📞 Ambulance</a>
+    <a href="tel:+916200922552" class="button">📞 TecHealth</a>
+  </div>
+
+  <div class="other-container">
+    <p>OTHERS SERVICES 🧰</p>
+    <button>
+       Towing🛻🪝
+    </button>
+      
+    <button>
+      Assintance🚛🛠️
+    </button>
+  </div>
+
+</div>
+
+</body>
+</html>
